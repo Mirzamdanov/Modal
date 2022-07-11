@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.modal__body {
+	position: absolute;
+	background-color: #D6A2E8;
+	width: 500px;
+	border-radius: 8px;
+	padding: 20px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	z-index: 1000;
+} 
+
+.curtain {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #ecf0f1;
+	z-index: 1;
+	opacity: 0.5;
+}
+
+.modal__off {
+	display: none;
+}
